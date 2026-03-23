@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "D:\\CrusherFactory\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{186B9DAE-CBF4-43F0-8387-0CC9D6293656}|FactoryApi\\FactoryApi.csproj|d:\\crusherfactory\\backend\\factoryapi\\services\\simulationworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{186B9DAE-CBF4-43F0-8387-0CC9D6293656}|FactoryApi\\FactoryApi.csproj|solutionrelative:factoryapi\\services\\simulationworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{186B9DAE-CBF4-43F0-8387-0CC9D6293656}|FactoryApi\\FactoryApi.csproj|d:\\crusherfactory\\backend\\factoryapi\\services\\equipmentstatestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{186B9DAE-CBF4-43F0-8387-0CC9D6293656}|FactoryApi\\FactoryApi.csproj|solutionrelative:factoryapi\\services\\equipmentstatestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{186B9DAE-CBF4-43F0-8387-0CC9D6293656}|FactoryApi\\FactoryApi.csproj|d:\\crusherfactory\\backend\\factoryapi\\controllers\\equipmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{186B9DAE-CBF4-43F0-8387-0CC9D6293656}|FactoryApi\\FactoryApi.csproj|solutionrelative:factoryapi\\controllers\\equipmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,6 +17,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{186B9DAE-CBF4-43F0-8387-0CC9D6293656}|FactoryApi\\FactoryApi.csproj|d:\\crusherfactory\\backend\\factoryapi\\models\\equipmentstatuses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{186B9DAE-CBF4-43F0-8387-0CC9D6293656}|FactoryApi\\FactoryApi.csproj|solutionrelative:factoryapi\\models\\equipmentstatuses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{186B9DAE-CBF4-43F0-8387-0CC9D6293656}|FactoryApi\\FactoryApi.csproj|d:\\crusherfactory\\backend\\factoryapi\\services\\simulationworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{186B9DAE-CBF4-43F0-8387-0CC9D6293656}|FactoryApi\\FactoryApi.csproj|solutionrelative:factoryapi\\services\\simulationworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{186B9DAE-CBF4-43F0-8387-0CC9D6293656}|FactoryApi\\FactoryApi.csproj|d:\\crusherfactory\\backend\\factoryapi\\services\\equipmentstatestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{186B9DAE-CBF4-43F0-8387-0CC9D6293656}|FactoryApi\\FactoryApi.csproj|solutionrelative:factoryapi\\services\\equipmentstatestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,63 +34,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\CrusherFactory\\Backend\\FactoryApi\\Program.cs",
               "RelativeDocumentMoniker": "FactoryApi\\Program.cs",
               "ToolTip": "D:\\CrusherFactory\\Backend\\FactoryApi\\Program.cs",
               "RelativeToolTip": "FactoryApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-22T22:42:36.031Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "EquipmentController.cs",
               "DocumentMoniker": "D:\\CrusherFactory\\Backend\\FactoryApi\\Controllers\\EquipmentController.cs",
               "RelativeDocumentMoniker": "FactoryApi\\Controllers\\EquipmentController.cs",
               "ToolTip": "D:\\CrusherFactory\\Backend\\FactoryApi\\Controllers\\EquipmentController.cs",
               "RelativeToolTip": "FactoryApi\\Controllers\\EquipmentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-22T22:40:09.094Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "EquipmentStateStore.cs",
               "DocumentMoniker": "D:\\CrusherFactory\\Backend\\FactoryApi\\Services\\EquipmentStateStore.cs",
               "RelativeDocumentMoniker": "FactoryApi\\Services\\EquipmentStateStore.cs",
               "ToolTip": "D:\\CrusherFactory\\Backend\\FactoryApi\\Services\\EquipmentStateStore.cs",
               "RelativeToolTip": "FactoryApi\\Services\\EquipmentStateStore.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBgAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-22T22:16:14.325Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "SimulationWorker.cs",
               "DocumentMoniker": "D:\\CrusherFactory\\Backend\\FactoryApi\\Services\\SimulationWorker.cs",
               "RelativeDocumentMoniker": "FactoryApi\\Services\\SimulationWorker.cs",
               "ToolTip": "D:\\CrusherFactory\\Backend\\FactoryApi\\Services\\SimulationWorker.cs",
               "RelativeToolTip": "FactoryApi\\Services\\SimulationWorker.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwCMAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwCMAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-22T22:15:21.766Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "EquipmentStatuses.cs",
               "DocumentMoniker": "D:\\CrusherFactory\\Backend\\FactoryApi\\Models\\EquipmentStatuses.cs",
               "RelativeDocumentMoniker": "FactoryApi\\Models\\EquipmentStatuses.cs",
@@ -103,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Equipment.cs",
               "DocumentMoniker": "D:\\CrusherFactory\\Backend\\FactoryApi\\Models\\Equipment.cs",
               "RelativeDocumentMoniker": "FactoryApi\\Models\\Equipment.cs",
