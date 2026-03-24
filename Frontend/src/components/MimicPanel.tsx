@@ -2,7 +2,6 @@ import React from "react";
 import type { Equipment } from "../types/equipment";
 import { FactorySvg } from "./FactorySvg";
 import '../App.css';
-//import .MimicPanel.css;
 
 interface MimicPanelProps {
     equipmentData: Equipment[];

@@ -1034,14 +1034,17 @@ export const FactorySvg = ({ getClassForId, onItemClick, ...props }: FactorySvgP
                 fill: "#ccc",
                 fillOpacity: 1,
                 fillRule: "evenodd",
-                stroke: "#666",
+                stroke: "#fffdff",
                 strokeWidth: 3,
                 strokeLinecap: "butt",
                 strokeLinejoin: "miter",
                 strokeMiterlimit: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
+                cursor: "pointer",
             }}
+            className={`conveyor-belt ${getClassForId('conv-k2-m2')}`}
+            onClick={() => onItemClick('conv-k2-m2')}
             >
             <title id="title2923">{"M-2-1"}</title>
             </path>
@@ -1052,14 +1055,17 @@ export const FactorySvg = ({ getClassForId, onItemClick, ...props }: FactorySvgP
                 fill: "#ccc",
                 fillOpacity: 1,
                 fillRule: "evenodd",
-                stroke: "#666",
+                stroke: "#fffdff",
                 strokeWidth: 3,
                 strokeLinecap: "butt",
                 strokeLinejoin: "miter",
                 strokeMiterlimit: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
+                cursor: "pointer",
             }}
+            className={`conveyor-belt ${getClassForId('conv-k1-m1')}`}
+            onClick={() => onItemClick('conv-k1-m1')}
             >
             <title id="title2925">{"M-1-1"}</title>
             </path>
@@ -1307,14 +1313,17 @@ export const FactorySvg = ({ getClassForId, onItemClick, ...props }: FactorySvgP
                 fill: "#ccc",
                 fillOpacity: 1,
                 fillRule: "evenodd",
-                stroke: "#666",
+                stroke: "#fffdff",
                 strokeWidth: 2.99665403,
                 strokeLinecap: "butt",
                 strokeLinejoin: "miter",
                 strokeMiterlimit: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
+                cursor: "pointer",
             }}
+            className={`conveyor-belt ${getClassForId('conv-k2-m2')}`}
+            onClick={() => onItemClick('conv-k2-m2')}
             >
             <title id="title2857">{"K-2-2"}</title>
             </path>
@@ -1325,14 +1334,17 @@ export const FactorySvg = ({ getClassForId, onItemClick, ...props }: FactorySvgP
                 fill: "#ccc",
                 fillOpacity: 1,
                 fillRule: "evenodd",
-                stroke: "#666",
+                stroke: "#fffdff",
                 strokeWidth: 3.00927997,
                 strokeLinecap: "butt",
                 strokeLinejoin: "miter",
                 strokeMiterlimit: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
+                cursor: "pointer",
             }}
+            className={`conveyor-belt ${getClassForId('conv-k1-m1')}`}
+            onClick={() => onItemClick('conv-k1-m1')}
             >
             <title id="title2859">{"K-1-2"}</title>
             </path>
@@ -1350,7 +1362,10 @@ export const FactorySvg = ({ getClassForId, onItemClick, ...props }: FactorySvgP
                 strokeMiterlimit: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
+                cursor: "pointer",
             }}
+            className={`conveyor-belt ${getClassForId('conv-k2-m2')}`}
+            onClick={() => onItemClick('conv-k2-m2')}
             >
             <title id="title2916">{"K-2-1"}</title>
             </path>
@@ -1368,7 +1383,10 @@ export const FactorySvg = ({ getClassForId, onItemClick, ...props }: FactorySvgP
                 strokeMiterlimit: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
+                cursor: "pointer",
             }}
+            className={`conveyor-belt ${getClassForId('conv-k1-m1')}`}
+            onClick={() => onItemClick('conv-k1-m1')}
             >
             <title id="title2918">{"K-1-1"}</title>
             </path>
@@ -1930,7 +1948,7 @@ export const FactorySvg = ({ getClassForId, onItemClick, ...props }: FactorySvgP
                 fill: "#ccc",
                 fillOpacity: 1,
                 fillRule: "evenodd",
-                stroke: "#666",
+                stroke: "#fffdff",
                 strokeWidth: 2.69654679,
                 strokeLinecap: "butt",
                 strokeLinejoin: "round",
@@ -3850,14 +3868,17 @@ export const FactorySvg = ({ getClassForId, onItemClick, ...props }: FactorySvgP
                 fill: "#ccc",
                 fillOpacity: 1,
                 fillRule: "evenodd",
-                stroke: "#666",
+                stroke: "#fffdff",
                 strokeWidth: 3.00575614,
                 strokeLinecap: "butt",
                 strokeLinejoin: "miter",
                 strokeMiterlimit: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
+                cursor: "pointer",
             }}
+            className={`conveyor-belt ${getClassForId('conv-m15')}`}
+            onClick={() => onItemClick('conv-m15')}
             >
             <title id="title2861">{"M-15"}</title>
             </path>
@@ -4441,7 +4462,13 @@ export const FactorySvg = ({ getClassForId, onItemClick, ...props }: FactorySvgP
                 strokeDasharray: "none",
             }}
             />
-            <g id="g7948" transform="translate(567.256 -4.412)">
+            <g 
+                id="kkd-11" 
+                transform="translate(567.256 -4.412)"
+                className={`equipment-node ${getClassForId('kkd-11')}`} 
+                onClick={() => onItemClick('kkd-11')}
+                style={{ cursor: 'pointer' }}
+            >
             <title id="title7950">{"KKD-11"}</title>
             <path
                 id="path7895"
@@ -4530,38 +4557,44 @@ export const FactorySvg = ({ getClassForId, onItemClick, ...props }: FactorySvgP
             <title id="title3251">{"ALARM_NEW_2-0"}</title>
             </rect>
             <path
-            id="path7895-4-7"
-            d="m953.913 809.4-126.699-.001 18.8 84h-46.6v10.2l23.296-.2.504 72.3h-53.2s7.425 16.837 7.425 30.072c0 13.236-7.767 28.136-7.767 28.136s245.21.753 244.741-.01c-12.785-20.76-11.199-29.5-11.199-29.5s3.462-18.433 11.2-28.701c1.049-1.393-51.301.011-51.301.011l.101-72.11h19.899V893.4h-48.899z"
-            style={{
-                opacity: 0.67699998,
-                fill: "url(#linearGradient7944-0-9)",
-                fillOpacity: 1,
-                stroke: "none",
-                strokeWidth: 1,
-                strokeLinecap: "butt",
-                strokeLinejoin: "miter",
-                strokeMiterlimit: 4,
-                strokeDasharray: "none",
-                strokeOpacity: 1,
-            }}
+                id="path7895-4-7"
+                d="m953.913 809.4-126.699-.001 18.8 84h-46.6v10.2l23.296-.2.504 72.3h-53.2s7.425 16.837 7.425 30.072c0 13.236-7.767 28.136-7.767 28.136s245.21.753 244.741-.01c-12.785-20.76-11.199-29.5-11.199-29.5s3.462-18.433 11.2-28.701c1.049-1.393-51.301.011-51.301.011l.101-72.11h19.899V893.4h-48.899z"
+                style={{
+                    opacity: 0.67699998,
+                    fill: "url(#linearGradient7944-0-9)",
+                    fillOpacity: 1,
+                    stroke: "none",
+                    strokeWidth: 1,
+                    strokeLinecap: "butt",
+                    strokeLinejoin: "miter",
+                    strokeMiterlimit: 4,
+                    strokeDasharray: "none",
+                    strokeOpacity: 1,
+                    cursor: "pointer",
+                }}
+                className={`equipment-node ${getClassForId('krd-12')}`}
+                onClick={() => onItemClick('krd-12')}
             >
-            <title id="title4613">{"KRD-12"}</title>
+                <title id="title4613">{"KRD-12"}</title>
             </path>
             <path
-            id="path7895-4-4"
-            d="M1426.077 808.443h-126.699l18.8 84h-46.6v10.2l23.296-.2.504 72.3h-53.2s7.425 16.836 7.425 30.071c0 13.236-7.767 28.136-7.767 28.136s245.21.754 244.741-.01c-12.785-20.759-11.199-29.5-11.199-29.5s3.462-18.432 11.2-28.7c1.049-1.393-51.301.01-51.301.01l.101-72.11h19.899v-10.2h-48.899z"
-            style={{
-                opacity: 0.67699998,
-                fill: "url(#linearGradient7944-0-2)",
-                fillOpacity: 1,
-                stroke: "none",
-                strokeWidth: 1,
-                strokeLinecap: "butt",
-                strokeLinejoin: "miter",
-                strokeMiterlimit: 4,
-                strokeDasharray: "none",
-                strokeOpacity: 1,
-            }}
+                id="path7895-4-4"
+                d="M1426.077 808.443h-126.699l18.8 84h-46.6v10.2l23.296-.2.504 72.3h-53.2s7.425 16.836 7.425 30.071c0 13.236-7.767 28.136-7.767 28.136s245.21.754 244.741-.01c-12.785-20.759-11.199-29.5-11.199-29.5s3.462-18.432 11.2-28.7c1.049-1.393-51.301.01-51.301.01l.101-72.11h19.899v-10.2h-48.899z"
+                style={{
+                    opacity: 0.67699998,
+                    fill: "url(#linearGradient7944-0-2)",
+                    fillOpacity: 1,
+                    stroke: "none",
+                    strokeWidth: 1,
+                    strokeLinecap: "butt",
+                    strokeLinejoin: "miter",
+                    strokeMiterlimit: 4,
+                    strokeDasharray: "none",
+                    strokeOpacity: 1,
+                    cursor: "pointer",
+                }}
+                className={`equipment-node ${getClassForId('krd-13')}`}
+                onClick={() => onItemClick('krd-13')}
             >
             <title id="title4615">{"KRD-13"}</title>
             </path>
@@ -4927,24 +4960,30 @@ export const FactorySvg = ({ getClassForId, onItemClick, ...props }: FactorySvgP
                 strokeMiterlimit: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
+                cursor: "pointer",
                 }}
+                className={`equipment-node ${getClassForId('ksd-4')}`}
+                onClick={() => onItemClick('ksd-4')}
             />
             </g>
             <path
-            id="path7054-0-9"
-            d="m3321.819 821.813-166.776-.286-.03 17.987h-35.644l-.022 4.23h18.433l.022 14.795-19.096-.044.022 5.924 18.965-.053-.016 102.947 54.434 25.8v3.3h91.207l.04-4.412 53.96-24.687.1-102.9 17.1.1v-6.2h-17.1v-14.4l17.476.03-.024-4.43h-33.052z"
-            style={{
-                opacity: 0.84299999,
-                fill: "url(#linearGradient3391-3)",
-                fillOpacity: 1,
-                stroke: "red",
-                strokeWidth: 0.00499999,
-                strokeLinecap: "butt",
-                strokeLinejoin: "miter",
-                strokeMiterlimit: 4,
-                strokeDasharray: "none",
-                strokeOpacity: 1,
-            }}
+                id="path7054-0-9"
+                d="m3321.819 821.813-166.776-.286-.03 17.987h-35.644l-.022 4.23h18.433l.022 14.795-19.096-.044.022 5.924 18.965-.053-.016 102.947 54.434 25.8v3.3h91.207l.04-4.412 53.96-24.687.1-102.9 17.1.1v-6.2h-17.1v-14.4l17.476.03-.024-4.43h-33.052z"
+                style={{
+                    opacity: 0.84299999,
+                    fill: "url(#linearGradient3391-3)",
+                    fillOpacity: 1,
+                    stroke: "red",
+                    strokeWidth: 0.00499999,
+                    strokeLinecap: "butt",
+                    strokeLinejoin: "miter",
+                    strokeMiterlimit: 4,
+                    strokeDasharray: "none",
+                    strokeOpacity: 1,
+                    cursor: "pointer",
+                }}
+                className={`equipment-node ${getClassForId('ksd-3')}`}
+                onClick={() => onItemClick('ksd-3')}
             >
             <title id="title4621">{"KRD-3"}</title>
             </path>
@@ -5200,7 +5239,10 @@ export const FactorySvg = ({ getClassForId, onItemClick, ...props }: FactorySvgP
                 strokeMiterlimit: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
+                cursor: "pointer",
             }}
+            className={`equipment-node ${getClassForId('ksd-5')}`}
+            onClick={() => onItemClick('ksd-5')}
             >
             <title id="title4623">{"KSD-5"}</title>
             </path>
@@ -5456,7 +5498,10 @@ export const FactorySvg = ({ getClassForId, onItemClick, ...props }: FactorySvgP
                 strokeMiterlimit: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
+                cursor: "pointer",
             }}
+            className={`equipment-node ${getClassForId('ksd-6')}`}
+            onClick={() => onItemClick('ksd-6')}
             >
             <title id="title4625">{"KSD-6"}</title>
             </path>
@@ -5712,7 +5757,10 @@ export const FactorySvg = ({ getClassForId, onItemClick, ...props }: FactorySvgP
                 strokeMiterlimit: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
+                cursor: "pointer",
             }}
+            className={`equipment-node ${getClassForId('kmd-3')}`}
+            onClick={() => onItemClick('kmd-3')}
             >
             <title id="title4635">{"KMD-3"}</title>
             </path>
@@ -5968,7 +6016,10 @@ export const FactorySvg = ({ getClassForId, onItemClick, ...props }: FactorySvgP
                 strokeMiterlimit: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
+                cursor: "pointer"
             }}
+            className={`equipment-node ${getClassForId('kmd-4')}`}
+            onClick={() => onItemClick('kmd-4')}
             >
             <title id="title4637">{"KMD-4"}</title>
             </path>
@@ -6224,7 +6275,10 @@ export const FactorySvg = ({ getClassForId, onItemClick, ...props }: FactorySvgP
                 strokeMiterlimit: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
+                cursor: "pointer",
             }}
+            className={`equipment-node ${getClassForId('kmd-5')}`}
+            onClick={() => onItemClick('kmd-5')}
             >
             <title id="title4639">{"KMD-5"}</title>
             </path>
@@ -6480,7 +6534,10 @@ export const FactorySvg = ({ getClassForId, onItemClick, ...props }: FactorySvgP
                 strokeMiterlimit: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
+                cursor: "pointer",
             }}
+            className={`equipment-node ${getClassForId('kmd-6')}`}
+            onClick={() => onItemClick('kmd-6')}
             >
             <title id="title4641">{"KMD-6"}</title>
             </path>

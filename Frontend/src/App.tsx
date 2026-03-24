@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { useEffect } from 'react';
 import type { Equipment } from './types/equipment';
 import MimicPanel from './components/MimicPanel';
+import EquipmentDetails from './components/EquipmentDetails';
 
 import './App.css'
 
@@ -54,11 +55,7 @@ function App() {
         </div>
 
         <div className="details-area">
-          {selectedEquipment ? (
-             <p>Вибрано: {selectedEquipment.name} (Темп: {selectedEquipment.temperature}°C)</p>
-          ) : (
-             <p>Клікніть на агрегат для деталей</p>
-          )}
+          <EquipmentDetails equipment={selectedEquipment} />
         </div>
       </main>
     </div>

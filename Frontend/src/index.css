@@ -88,3 +88,46 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.status-off, .status-off * { 
+  fill: var(--status-off) !important; 
+  transition: fill 0.5s ease;
+}
+
+.status-run, .status-run * { 
+  fill: var(--status-run) !important; 
+  transition: fill 0.5s ease;
+}
+
+.status-idle, .status-idle * { 
+  fill: var(--status-idle) !important; 
+  transition: fill 0.5s ease;
+}
+
+.status-warning, .status-warning * { 
+  fill: var(--status-warning) !important; 
+  transition: fill 0.5s ease;
+}
+
+.status-alarm, .status-alarm * { 
+  fill: var(--status-alarm) !important; 
+  transition: fill 0.5s ease;
+}
+
+.conveyor-belt {
+  stroke-dasharray: 15 10 !important;
+  stroke-width: 6px !important;
+}
+
+.is-animating {
+  animation: moveConveyor 1s linear infinite !important;
+}
+
+@keyframes moveConveyor {
+  from {
+    stroke-dashoffset: 25;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}

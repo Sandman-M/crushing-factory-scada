@@ -25,10 +25,10 @@ namespace FactoryApi.Services
             AddOrUpdate(new Equipment { Id = "kmd-5", Name = "Дробарка КМД-5", Status = EquipmentStatuses.Off, Temperature = 20, Load = 0 });
             AddOrUpdate(new Equipment { Id = "kmd-6", Name = "Дробарка КМД-6", Status = EquipmentStatuses.Off, Temperature = 20, Load = 0 });
 
-            AddOrUpdate(new Equipment { Id = "conv-k1", Name = "Конвеєр К-1", Status = EquipmentStatuses.Off, Temperature = 20, Load = 0 });
-            AddOrUpdate(new Equipment { Id = "conv-k2", Name = "Конвеєр К-2", Status = EquipmentStatuses.Off, Temperature = 20, Load = 0 });
-            AddOrUpdate(new Equipment { Id = "conv-m1", Name = "Конвеєр М-1", Status = EquipmentStatuses.Off, Temperature = 20, Load = 0 });
-            AddOrUpdate(new Equipment { Id = "conv-m2", Name = "Конвеєр М-2", Status = EquipmentStatuses.Off, Temperature = 20, Load = 0 });
+            AddOrUpdate(new Equipment { Id = "conv-k1-m1", Name = "Конвеєр К1-M1", Status = EquipmentStatuses.Off, Temperature = 20, Load = 0 });
+            AddOrUpdate(new Equipment { Id = "conv-k2-m2", Name = "Конвеєр К2-M2", Status = EquipmentStatuses.Off, Temperature = 20, Load = 0 });
+            //AddOrUpdate(new Equipment { Id = "conv-m1", Name = "Конвеєр М-1", Status = EquipmentStatuses.Off, Temperature = 20, Load = 0 });
+            //AddOrUpdate(new Equipment { Id = "conv-m2", Name = "Конвеєр М-2", Status = EquipmentStatuses.Off, Temperature = 20, Load = 0 });
             AddOrUpdate(new Equipment { Id = "conv-m15", Name = "Конвеєр М-15", Status = EquipmentStatuses.Off, Temperature = 20, Load = 0 });
         }
 
