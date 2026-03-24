@@ -4508,7 +4508,10 @@ export const FactorySvg = ({ getClassForId, onItemClick, ...props }: FactorySvgP
                 strokeLinecap: "butt",
                 strokeLinejoin: "miter",
                 strokeOpacity: 1,
+                cursor: "pointer",
                 }}
+                className={`equipment-node ${getClassForId('bn-krd1213')}`}
+                onClick={() => onItemClick('bn-krd1213')}
             />
             </g>
             <g id="g7094" transform="translate(546)">
@@ -4524,7 +4527,10 @@ export const FactorySvg = ({ getClassForId, onItemClick, ...props }: FactorySvgP
                 strokeLinecap: "butt",
                 strokeLinejoin: "miter",
                 strokeOpacity: 1,
+                cursor: "pointer",
                 }}
+                className={`equipment-node ${getClassForId('bn-kkd11')}`}
+                onClick={() => onItemClick('bn-kkd11')}
             />
             </g>
             <image
@@ -4703,7 +4709,10 @@ export const FactorySvg = ({ getClassForId, onItemClick, ...props }: FactorySvgP
                 strokeLinecap: "butt",
                 strokeLinejoin: "miter",
                 strokeOpacity: 1,
+                cursor: "pointer",
                 }}
+                className={`equipment-node ${getClassForId('bn-krd1213(2)')}`}
+                onClick={() => onItemClick('bn-krd1213(2)')}
             />
             </g>
             <g id="g3360" transform="translate(1017.491 159.927)">

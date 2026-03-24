@@ -1,10 +1,9 @@
-import { useState } from 'react'
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import type { Equipment } from './types/equipment';
 import MimicPanel from './components/MimicPanel';
 import EquipmentDetails from './components/EquipmentDetails';
 
-import './App.css'
+import './App.css';
 
 function App() {
   const [equipmentData, setEquipmentData] = useState<Equipment[]>([]);
@@ -14,6 +13,11 @@ function App() {
   const selectedEquipment = equipmentData.find(eq => eq.id === selectedId) || null;
 
   useEffect(() => {
+    if (!isAnimating) {
+      setEquipmentData([]); 
+      return;
+    }
+
     const fetchEquipment = async () => {
       try {
         const response = await fetch('https://localhost:7254/api/equipment');
@@ -31,7 +35,8 @@ function App() {
     const intervalId = setInterval(fetchEquipment, 2000);
 
     return () => clearInterval(intervalId);
-  }, []);
+    
+  }, [isAnimating]);
 
   return (
     <div className="app-container">
@@ -51,7 +56,7 @@ function App() {
             equipmentData={equipmentData}
             onEquipmentClick={(id) => setSelectedId(id)}
             isAnimating={isAnimating}
-            />
+          />
         </div>
 
         <div className="details-area">
@@ -62,4 +67,4 @@ function App() {
   );
 }
 
-export default App
+export default App;

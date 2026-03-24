@@ -131,3 +131,21 @@ body {
     stroke-dashoffset: 0;
   }
 }
+
+.conveyor-ore {
+  stroke-dasharray: 0 20 !important; 
+  stroke-linecap: round !important; 
+  stroke-width: 5px !important; 
+  stroke: #5c4033 !important;
+  opacity: 0;
+}
+
+.is-animating.status-run.conveyor-ore {
+  opacity: 1;
+  animation: moveOre 1s linear infinite !important;
+}
+
+@keyframes moveOre {
+  from { stroke-dashoffset: 20; }
+  to { stroke-dashoffset: 0; }
+}
