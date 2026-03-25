@@ -32,7 +32,7 @@ function App() {
 
     fetchEquipment();
 
-    const intervalId = setInterval(fetchEquipment, 2000);
+    const intervalId = setInterval(fetchEquipment, 5000);
 
     return () => clearInterval(intervalId);
     
