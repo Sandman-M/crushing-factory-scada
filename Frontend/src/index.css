@@ -47,7 +47,7 @@ body {
   font-size: 1rem;
   font-weight: bold;
   color: white;
-  background-color: var(--status-off);
+  background-color: var(--status-run);
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -55,8 +55,8 @@ body {
 }
 
 .btn-start.active {
-  background-color: var(--status-run);
-  box-shadow: 0 0 10px var(--status-run);
+  background-color: var(--status-alarm);
+  box-shadow: 0 0 10px var(--status-alarm);
 }
 
 .workspace {

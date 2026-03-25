@@ -29,9 +29,6 @@ const EquipmentDetails: React.FC<EquipmentDetailsProps> = ({ equipment }) => {
     <div className="details-card">
       <h2 style={{ borderBottom: '1px solid #555', paddingBottom: '10px' }}>
         {equipment.name}
-        <span style={{ fontSize: '0.8rem', color: '#999', marginLeft: '10px', fontWeight: 'normal' }}>
-          ({equipment.type === 'Crusher' ? 'Дробарка' : equipment.type === 'Conveyor' ? 'Конвеєр' : 'Бункер'})
-        </span>
       </h2>
       
       <div style={{ display: 'flex', flexDirection: 'column', gap: '15px', marginTop: '20px', fontSize: '1.2rem' }}>
